@@ -255,37 +255,7 @@
     </section>
 
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-        <div class="container" data-aos="fade-up">
-            <h2 class="text-uppercase title-section text-center mb-5">Temoignages</h2>
-
-            <div class="slides-2 swiper">
-                <div class="swiper-wrapper">
-                    @foreach ($testimonials as $testimonial )
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <img src="{{ asset($testimonial->image) }}" class="testimonial-img" alt="">
-                                    <h3>{{$testimonial->nom}}</h3>
-                                    <h4>{{$testimonial->fonction}}</h4>
-                                    <p>
-                                        <i class="fa-solid fa-quote-left"></i>
-                                        {{$testimonial->message}}
-                                        <i class="fa-solid fa-quote-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </div>
-    </section>
-
+    
   </main>
 
   <!-- ======= Footer ======= -->
