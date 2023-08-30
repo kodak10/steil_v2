@@ -400,3 +400,6 @@
     color: var(--color-primary);
   }
 
+  .activite .card{
+    width: 100% !important;
+  }

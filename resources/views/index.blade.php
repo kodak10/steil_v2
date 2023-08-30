@@ -359,7 +359,7 @@
         <h2 class="text-center mb-5 title-section text-white">NOS SERVICES</h2>
             <div class="row">
                 <div class="col-lg-4">
-                    <a href="">
+                    <a href="/pieces">
                     <div class="card pieces_auto  w-100" style="min-height: 200px;">
                         <div class="card-body d-flex justify-content-center align-items-center text-center">
                         <h5 class="card-title">VENTE DE PIECE AUTO</h5>
@@ -369,7 +369,7 @@
                 </div>
 
                 <div class="col-lg-4 mt-5 mb-5">
-                    <a href="">
+                    <a href="/reparation">
                     <div class="card reparation w-100" style="min-height: 200px;">
                         <div class="card-body d-flex justify-content-center align-items-center text-center">
                         <h5 class="card-title">REPARATION DE GROS ENGIN</h5>
@@ -379,7 +379,7 @@
                 </div>
 
                 <div class="col-lg-4 ">
-                <a href="">
+                <a href="/engins">
                     <div class="card vente_vehicule w-100" style="min-height: 200px;">
                     <div class="card-body d-flex justify-content-center align-items-center text-center">
                         <h5 class="card-title">VENTE ET LOCATION D'ENGIN</h5>
@@ -467,7 +467,7 @@
                     <div class="brator-section-header">
                         <div class="brator-section-header-title">
                             <h2>Les engins </h2>
-                            <a href="#"> Voir tout<i class="lnir lnir-chevron-right"></i> </a>
+                            <a href="/engins"> Voir tout<i class="lnir lnir-chevron-right"></i> </a>
 
                         </div>
                     </div>
