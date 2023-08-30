@@ -206,7 +206,7 @@
                 <div class="col-md-12">
                     <div class="brator-banner-area design-four lazyload" data-bg="{{asset('assets/images/logo.png')}}">
                         <div class="brator-banner-content">
-                            <h2><a href="#_">PIECES AUTO ET MOTEURS</a></h2>
+                            <h2><a href="#_" style="text-align: center !important">PIECES AUTO ET MOTEURS</a></h2>
                         </div>
                     </div>
                 </div>
@@ -394,7 +394,7 @@
                                             <div class="brator-product-single-item-area-mdl">
                                                 <div class="brator-product-single-item-mini">
                                                     <div class="brator-product-single-item-cat">
-                                                        <a href="product-layout-01.html">{{$piece_auto->categorie_pieces}}</a>
+                                                        {{-- <a href="product-layout-01.html">{{$piece_auto->categorie_pieces}}</a> --}}
                                                     </div>
                                                     <div class="brator-product-single-item-title">
                                                         <h5><a href="#_"> {{$piece_auto->nom}}</a></h5>
@@ -455,7 +455,6 @@
             <ul>
               <li><a href="/">Accueil</a></li>
               <li><a href="#get-started">A Propos</a></li>
-              <li><a href="#ours_services">Services</a></li>
               <li><a href="/pieces_engin">Pièces Auto / Engin</a></li>
               <li><a href="/reparation">Reparation d'engin</a></li>
               <li><a href="/contact">Contact</a></li>

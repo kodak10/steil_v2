@@ -198,7 +198,7 @@
                 <div class="col-md-12">
                     <div class="brator-banner-area design-four lazyload" data-bg="assets/images/slider/slide-04.jpg">
                         <div class="brator-banner-content">
-                            <h2><a href="#_" class="texte-center">ENGINS</a></h2>
+                            <h2><a href="#_" style="text-align: center !important">ENGINS</a></h2>
                         </div>
                     </div>
                 </div>
