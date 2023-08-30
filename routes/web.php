@@ -16,7 +16,7 @@ use App\Http\Controllers\IndexController;
 Route::get('/', [IndexController::class, 'index'] );
 Route::get('/engins', [IndexController::class, 'engin'] );
 Route::get('/pieces', [IndexController::class, 'pieceMoteur'] );
-Route::get('/reparations', [IndexController::class, 'reparation'] );
+Route::get('/reparation', [IndexController::class, 'reparation'] );
 Route::get('/contact', [IndexController::class, 'contact'] );
 
 
