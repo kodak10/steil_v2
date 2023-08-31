@@ -18,6 +18,7 @@ Route::get('/engins', [IndexController::class, 'engin'] );
 Route::get('/pieces', [IndexController::class, 'pieceMoteur'] );
 Route::get('/reparation', [IndexController::class, 'reparation'] );
 Route::get('/contact', [IndexController::class, 'contact'] );
+Route::get('/search', [IndexController::class, 'search'] )->name('search');
 
 
 

@@ -403,3 +403,11 @@
   .activite .card{
     width: 100% !important;
   }
+
+
+
+.service .card-title{
+    color: #df1529;
+    font-weight: bold;
+    text-transform: uppercase;
+}

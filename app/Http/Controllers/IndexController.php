@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Engin;
 use App\Models\marque;
 use App\Models\piece;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
 class IndexController extends Controller
@@ -47,6 +48,25 @@ class IndexController extends Controller
     public function contact()
     {
         return view('contact');
+    }
+
+    public function search(Request $request)
+    {
+        $piece_autos = piece::get();
+        $newpieces = piece::paginate(10);
+
+        $keyword = $request->input('keyword');
+
+        $query = DB::table('pieces');
+
+        if (!empty($keyword)) {
+            $query->where('nom', 'like', '%' . $keyword . '%');
+        }
+
+        $piece_autos = $query->paginate(8);
+
+
+        return view('Shop_Pieces_Moteur', compact('piece_autos', 'newpieces'));
     }
 
 }
