@@ -86,7 +86,7 @@
                                                 <div class="brator-product-single-item-title">
                                                     <h5><a href="#_"> {{$newpiece->reference}}</a></h5>
                                                 </div>
-                                            <div class="brator-product-single-item-btn"><a href="#">Appeler</a></div>
+                                            <div class="brator-product-single-item-btn"><a href="tel:+2250758265650">Appeler</a></div>
                                         </div>
 
 
@@ -139,36 +139,6 @@
                                     </svg>Renistialiser
                                 </button>
                             </div>
-                            {{-- <div class="shop-sidebar-content">
-                                <div class="brator-filter-item-area">
-                                        <div class="brator-filter-item-title current">
-                                            <h4>Origins</h4>
-                                            <button class="ac-trigger">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                    <div class="brator-filter-item-content-area">
-                                        <div class="brator-filter-item-content">
-                                            <input type="checkbox" name="origin" />
-                                            <div class="brator-filter-item-check-box-content">
-                                                <span class="brator-name">All</span>
-                                                <span class="brator-count">(1.532)</span>
-                                            </div>
-                                        </div>
-                                        <div class="brator-filter-item-content">
-                                            <input type="checkbox" name="origin" />
-                                            <div class="brator-filter-item-check-box-content"><span class="brator-name">OEM</span><span class="brator-count">(1.132)</span></div>
-                                        </div>
-                                        <div class="brator-filter-item-content">
-                                            <input type="checkbox" name="origin" />
-                                            <div class="brator-filter-item-check-box-content"><span class="brator-name">Aftermarkets</span><span class="brator-count">(400)</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -206,7 +176,7 @@
                                             <div class="brator-product-single-item-area-right">
                                                 <div class="brator-product-single-item-btn">
                                                     <div class="brator-product-single-item-btn-cart">
-                                                        <button>Appeler</button>
+                                                        <button ><a href="tel:+2250758265650">Appeler</a></button>
                                                     </div>
                                                 </div>
                                             </div>
